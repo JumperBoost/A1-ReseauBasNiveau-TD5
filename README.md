@@ -25,7 +25,7 @@ int main(int argc, char **argv) {
 
 1. Compilez et exécutez le programme. Expliquez les résultats observés.
 
-1. En utilisant la procédure `unsigned int sleep(unsigned int seconds)` de la bibliothèque `unistd.h`, faites en sorte que les lignes d'affichage du processus fils s'exécutent 5 secondes après celles du processus père.
+1. En utilisant la fonction `unsigned int sleep(unsigned int seconds)` de la bibliothèque `unistd.h`, faites en sorte que les lignes d'affichage du processus fils s'exécutent 5 secondes après celles du processus père.
 	
 	Que se passe-t-il lorsque l'on exécute le programme ?
 
