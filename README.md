@@ -79,7 +79,7 @@ int main(int argc, char **argv) {
 
 1. En utilisant la fonction `execlp`, écrivez le programme `ex2psl.c` qui exécute la commande `ps -l` lorsqu'on le lance.
 	
-	**Indication :** Il faut appeler la commande `execlp` pour remplacer le code du processus courant par celui de la commande `ps`, tout en lui donnant les bons arguments pour lui passer l'option `-l`.
+	**Indication :** Il faut appeler la fonction `execlp` pour remplacer le code du processus courant par celui de la commande `ps`, tout en lui donnant les bons arguments pour lui passer l'option `-l`.
 
 1. Écrivez le programme `ex2lancer.c` qui crée un nouveau processus à l'aide de `fork` et dont le processus fils exécute l'exécutable passé en paramètres avec ses arguments. Par exemple l'appel `./a.out ls -l *` doit exécuter la commande `ls -l *`. Le père doit attendre la fin de l'exécution du fils avant de terminer.
 	
