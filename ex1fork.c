@@ -1,4 +1,3 @@
-#include <sys/types.h>
 #include <unistd.h>
 #include <stdio.h>
 
@@ -9,6 +8,7 @@ int main(int argc, char **argv) {
     if (i != 0) {
         printf("PID: %d, résultat du fork: %d\n",getpid(),i);
     } else {
+        sleep(5);
         printf("PID: %d, résultat du fork: %d \n",getpid(),i);
     }
     printf("PID: %d (après fork)\n", getpid());
