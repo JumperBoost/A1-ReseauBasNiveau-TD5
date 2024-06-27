@@ -1,17 +1,5 @@
-# Ignore all files
-*
-
-# Unignore specific extensions
-!.gitignore
-!*.md
-!*.c
-!*.txt
-
-# Unignore directories
-!*/
-
 # Jetbrains
 .idea
 
 # Cmake
-cmake-build-debug
+cmake-build-debug/
