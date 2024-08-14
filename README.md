@@ -1,3 +1,5 @@
+![](resources/logo.jpeg)
+
 # TD n°5 - Manipulation de processus
 
 L'objectif de ce TD est de vous familiariser avec l'utilisation des appels système `fork` (création de processus) et la famille `exec` (exécution du code d'un exécutable).
